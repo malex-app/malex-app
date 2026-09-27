@@ -11,17 +11,17 @@ class MalexApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'MALEX!',
-debugShowCheckedModeBanner: false,
-title: 'MALEX!',
-home: Scaffold(
+      title: 'MALEX',
       home: Scaffold(
+        backgroundColor: Colors.black,
         body: Center(
           child: Text(
             'MALEX',
             style: TextStyle(
               fontSize: 40,
               fontWeight: FontWeight.bold,
+              color: Colors.white,
+              letterSpacing: 5,
             ),
           ),
         ),
