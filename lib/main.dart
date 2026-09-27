@@ -18,10 +18,9 @@ class MalexApp extends StatelessWidget {
           child: Text(
             'MALEX',
             style: TextStyle(
+              color: Colors.white,
               fontSize: 40,
               fontWeight: FontWeight.bold,
-              color: Colors.white,
-              letterSpacing: 5,
             ),
           ),
         ),
