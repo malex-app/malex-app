@@ -11,7 +11,10 @@ class MalexApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'MALEX!'
+      title: 'MALEX!',
+debugShowCheckedModeBanner: false,
+title: 'MALEX!',
+home: Scaffold(
       home: Scaffold(
         body: Center(
           child: Text(
